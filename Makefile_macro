@@ -1,0 +1,8 @@
+CC = gcc
+TARGET = shop
+OBJECTS = main.o manager.o product.o
+all : $(TARGET)
+$(TARGET) : $(OBJECTS)
+	$(CC) -o $@ $^
+clean: 
+	rm *.o shop
