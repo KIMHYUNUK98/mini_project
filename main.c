@@ -42,7 +42,7 @@ int main() {
 		       		continue;
 		       }
 		       int delok;
-		       printf("=> READY TO DELETE? (0) ");
+		       printf("=> READY TO DELETE? (1) ");
 		       scanf("%d", &delok);
 		       		if(delok == 1) {
 					if(deleteProduct(&plist[no-1]))
